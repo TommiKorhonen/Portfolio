@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState,useEffect} from 'react'
+import Navbar from './components/Navbar';
+import Header from './components/Header/Header';
+import Main from './components/MainSection/Main';
+
+
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+    const toggle = () => {
+        setIsOpen(!isOpen)
+    }
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'visible';
+        }
+    }, [isOpen])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar toggle={toggle} isOpen={isOpen}/>
+    <Header />
+    <Main />
+    
+    </>
   );
 }
 
