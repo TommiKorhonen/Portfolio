@@ -6,7 +6,7 @@ import { spanData } from './SpanData'
 import { Link } from 'react-scroll'
 const Header = () => {
     return (
-        <header className="centerFlex min-h-screen p-5 max-w-4xl m-auto" id="home" name="home">
+        <header className="centerFlex min-h-screen p-5 lg:max-w-6xl max-w-4xl m-auto" id="home" name="home">
                 <div className="centerFlex flex-col m-auto relative">
                     <div>
                         <h1 id="title" className=" text-5xl sm:text-6xl uppercase font-bold max-w-md">

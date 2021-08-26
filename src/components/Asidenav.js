@@ -11,7 +11,7 @@ const Asidenav = ({isOpen, toggle}) => {
                     const {id,text,to} = li;
                     return(
                         <li className="pl-[30px] relative" key={id}>
-                            <Link activeClass="activeNumber" to={to} spy={true} smooth={true} duration={500} className="absolute left-[30px] opacity-5 transition duration-200 ease-in cursor-pointer hover:text-yellow-500 hover:opacity-100" role="none">0{id}</Link>
+                            <Link activeClass="activeNumber" to={to} spy={true} smooth={true} duration={500} className="absolute left-[30px] opacity-6 text-gray-600 transition duration-200 ease-in cursor-pointer hover:text-yellow-500 hover:opacity-100" role="none">0{id}</Link>
                             <Link activeClass="activeLi" to={to} spy={true} smooth={true} duration={500} className="absolute uppercase opacity-0 translate-x-[30px] transform transition  duration-200 ease-in">{text}</Link>
                         </li>
                     )
