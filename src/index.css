@@ -11,6 +11,9 @@ h2 {
 p {
   @apply max-w-prose;
 }
+strong {
+  @apply text-yellow-400;
+}
 button {
   @apply hover:shadow-orange transform active:scale-90;
 }
@@ -23,6 +26,12 @@ button {
 .activespan {
   @apply hover:text-twitchPurple transition duration-300 ease-in-out text-5xl sm:text-6xl uppercase font-bold max-w-md;
 }
-.activespan2 {
-  @apply text-5xl sm:text-6xl uppercase font-bold max-w-md;
+.projectButtonActive {
+  @apply relative py-2 px-5 gap-2 inline-flex items-center overflow-hidden uppercase border rounded-md border-solid text-gray-200 border-twitchPurple  after:absolute  hover:after:top-0  after:left-0  after:w-full  after:h-full  after:z-[-1]  after:bg-twitchPurple after:scale-0  hover:after:scale-100 after:origin-left after:transition-transform after:duration-200 after:ease-in;
+}
+.activeNumber {
+  @apply transform translate-x-[-40px] opacity-100 cursor-default;
+}
+.activeLi {
+  @apply opacity-100  hover:transform translate-x-[0];
 }

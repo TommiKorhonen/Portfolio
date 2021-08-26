@@ -5,7 +5,7 @@ import { techData } from './TechStackData'
 import { toolsData } from './ToolsData'
 const WhatIknow = () => {
     return (
-        <section className="centerFlex flex-col m-auto max-w-6xl min-h-screen">
+        <section className="centerFlex flex-col m-auto max-w-6xl pb-16 min-h-screen" id="skills" name="skills">
             <h2 className="flex mb-16">
                 <ChevronRightIcon className="h-10 text-yellow-500"/>
                 What I know
@@ -27,7 +27,7 @@ const WhatIknow = () => {
             </article>
             <article>
                 <h3 className="text-2xl text-center mb-12">Tools that I use</h3>
-                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-16">
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-16" >
                     {toolsData.map((tool) => {
                         const {id, text, src} = tool;
                         return(
@@ -38,8 +38,8 @@ const WhatIknow = () => {
                         )
                     })}
                 </ul>
-            </article>
-        </section>
+            </article >
+        </section >
     )
 }
 
