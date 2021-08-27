@@ -1,3 +1,8 @@
+# What I learned ?
+* Make a clean and professional looking website.
+* Got good understanding how form control and validation works with react.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
