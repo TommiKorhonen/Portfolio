@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfe890d1.chunk.css",
-    "main.js": "/static/js/main.9be0b2b4.chunk.js",
-    "main.js.map": "/static/js/main.9be0b2b4.chunk.js.map",
+    "main.css": "/static/css/main.e6647e1c.chunk.css",
+    "main.js": "/static/js/main.1123557a.chunk.js",
+    "main.js.map": "/static/js/main.1123557a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.85c79a9a.js",
     "runtime-main.js.map": "/static/js/runtime-main.85c79a9a.js.map",
     "static/js/2.f2a6c940.chunk.js": "/static/js/2.f2a6c940.chunk.js",
     "static/js/2.f2a6c940.chunk.js.map": "/static/js/2.f2a6c940.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.cfe890d1.chunk.css.map": "/static/css/main.cfe890d1.chunk.css.map",
+    "static/css/main.e6647e1c.chunk.css.map": "/static/css/main.e6647e1c.chunk.css.map",
     "static/js/2.f2a6c940.chunk.js.LICENSE.txt": "/static/js/2.f2a6c940.chunk.js.LICENSE.txt",
     "static/media/Delicy.c6541067.png": "/static/media/Delicy.c6541067.png",
     "static/media/Me.c6e33a1e.png": "/static/media/Me.c6e33a1e.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.85c79a9a.js",
     "static/js/2.f2a6c940.chunk.js",
-    "static/css/main.cfe890d1.chunk.css",
-    "static/js/main.9be0b2b4.chunk.js"
+    "static/css/main.e6647e1c.chunk.css",
+    "static/js/main.1123557a.chunk.js"
   ]
 }
