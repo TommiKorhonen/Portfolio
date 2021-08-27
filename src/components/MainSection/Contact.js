@@ -10,9 +10,6 @@ const Contact = () => {
         email:"",
         message:""
     })
-    // const [name , setName] = useState("");
-    // const [email, setEmail] = useState("");
-    // const [message, setMessage] = useState("");
     const [errors, setErrors] = useState({});
     const [formIsSumbitted, setFormIsSumbitted] = useState(false);
     const [dataIsCorrect, setDataIsCorrect] = useState(false);
