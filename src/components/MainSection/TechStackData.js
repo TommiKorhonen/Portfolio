@@ -4,6 +4,7 @@ import js from "../../images/js.png"
 import react from "../../images/react.png"
 import scss from "../../images/scss.png"
 import tailwind from "../../images/tailwind.png"
+import typescript from "../../images/ts-logo-128.png"
 export const techData = [
     {
         id: 1,
@@ -35,4 +36,9 @@ export const techData = [
         text: "Git",
         src: git,
     },
+    {
+        id: 8,
+        text: "Typescript",
+        src: typescript
+    }
 ]
