@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e6647e1c.chunk.css",
-    "main.js": "/static/js/main.1123557a.chunk.js",
-    "main.js.map": "/static/js/main.1123557a.chunk.js.map",
+    "main.js": "/static/js/main.5d652a0e.chunk.js",
+    "main.js.map": "/static/js/main.5d652a0e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.85c79a9a.js",
     "runtime-main.js.map": "/static/js/runtime-main.85c79a9a.js.map",
     "static/js/2.f2a6c940.chunk.js": "/static/js/2.f2a6c940.chunk.js",
@@ -16,12 +16,13 @@
     "static/media/Streamovies.883458e2.png": "/static/media/Streamovies.883458e2.png",
     "static/media/VBank.3eb7e47f.png": "/static/media/VBank.3eb7e47f.png",
     "static/media/Weatherapp.a2ab5e8d.png": "/static/media/Weatherapp.a2ab5e8d.png",
+    "static/media/droppe xmas.1338b867.JPG": "/static/media/droppe xmas.1338b867.JPG",
     "static/media/react.f268964f.png": "/static/media/react.f268964f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.85c79a9a.js",
     "static/js/2.f2a6c940.chunk.js",
     "static/css/main.e6647e1c.chunk.css",
-    "static/js/main.1123557a.chunk.js"
+    "static/js/main.5d652a0e.chunk.js"
   ]
 }
