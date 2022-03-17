@@ -1,28 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6647e1c.chunk.css",
-    "main.js": "/static/js/main.5d652a0e.chunk.js",
-    "main.js.map": "/static/js/main.5d652a0e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.85c79a9a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.85c79a9a.js.map",
-    "static/js/2.f2a6c940.chunk.js": "/static/js/2.f2a6c940.chunk.js",
-    "static/js/2.f2a6c940.chunk.js.map": "/static/js/2.f2a6c940.chunk.js.map",
+    "main.css": "/static/css/main.eee126bd.css",
+    "main.js": "/static/js/main.0ab5b6fd.js",
+    "static/media/Streamovies.png": "/static/media/Streamovies.883458e2f296551571b5.png",
+    "static/media/Delicy.png": "/static/media/Delicy.c654106789239307af0f.png",
+    "static/media/VBank.png": "/static/media/VBank.3eb7e47fd621b463250c.png",
+    "static/media/Portfolio.png": "/static/media/Portfolio.d06b9cfe9718b3bf4c81.png",
+    "static/media/Weatherapp.png": "/static/media/Weatherapp.a2ab5e8d88dc9dcc9a62.png",
+    "static/media/droppe xmas.JPG": "/static/media/droppe xmas.1338b867abf936630537.JPG",
+    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.f853e5a1869a24e5a548.png",
+    "static/media/Me.png": "/static/media/Me.c6e33a1e517553cfa701.png",
+    "static/media/react.png": "/static/media/react.f268964f328ad9db0a9c.png",
     "index.html": "/index.html",
-    "static/css/main.e6647e1c.chunk.css.map": "/static/css/main.e6647e1c.chunk.css.map",
-    "static/js/2.f2a6c940.chunk.js.LICENSE.txt": "/static/js/2.f2a6c940.chunk.js.LICENSE.txt",
-    "static/media/Delicy.c6541067.png": "/static/media/Delicy.c6541067.png",
-    "static/media/Me.c6e33a1e.png": "/static/media/Me.c6e33a1e.png",
-    "static/media/Portfolio.d06b9cfe.png": "/static/media/Portfolio.d06b9cfe.png",
-    "static/media/Streamovies.883458e2.png": "/static/media/Streamovies.883458e2.png",
-    "static/media/VBank.3eb7e47f.png": "/static/media/VBank.3eb7e47f.png",
-    "static/media/Weatherapp.a2ab5e8d.png": "/static/media/Weatherapp.a2ab5e8d.png",
-    "static/media/droppe xmas.1338b867.JPG": "/static/media/droppe xmas.1338b867.JPG",
-    "static/media/react.f268964f.png": "/static/media/react.f268964f.png"
+    "main.eee126bd.css.map": "/static/css/main.eee126bd.css.map",
+    "main.0ab5b6fd.js.map": "/static/js/main.0ab5b6fd.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.85c79a9a.js",
-    "static/js/2.f2a6c940.chunk.js",
-    "static/css/main.e6647e1c.chunk.css",
-    "static/js/main.5d652a0e.chunk.js"
+    "static/css/main.eee126bd.css",
+    "static/js/main.0ab5b6fd.js"
   ]
 }
