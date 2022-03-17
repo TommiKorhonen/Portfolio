@@ -1,11 +1,5 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['./src/pages/**/*.{html,js}',
-     './src/components/**/*.{html,js}',
-     './src/layouts/**/*.{html,js}',
-     './src/index.html',
-    "./public/**/*.html"],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -13,19 +7,12 @@ module.exports = {
         twitchPurple: "#6441a5",
       },
       fontFamily: {
-        "roboto": ['Roboto', "sans-serif"]
+        roboto: ["Roboto", "sans-serif"],
       },
       boxShadow: {
         orange: "0 0 1px #ed9f4b",
-      }
-    },
-  },
-  variants: {
-    extend: {
-      backgroundColor: ['active'],
-      scale: ['active'],
-      animation: ['hover', 'focus'],
+      },
     },
   },
   plugins: [],
-}
+};
