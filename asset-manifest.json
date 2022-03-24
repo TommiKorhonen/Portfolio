@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.eee126bd.css",
-    "main.js": "/static/js/main.0ab5b6fd.js",
-    "static/media/Streamovies.png": "/static/media/Streamovies.883458e2f296551571b5.png",
+    "main.js": "/static/js/main.8303e88e.js",
     "static/media/Delicy.png": "/static/media/Delicy.c654106789239307af0f.png",
     "static/media/VBank.png": "/static/media/VBank.3eb7e47fd621b463250c.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.d06b9cfe9718b3bf4c81.png",
     "static/media/Weatherapp.png": "/static/media/Weatherapp.a2ab5e8d88dc9dcc9a62.png",
     "static/media/droppe xmas.JPG": "/static/media/droppe xmas.1338b867abf936630537.JPG",
+    "static/media/sketch.JPG": "/static/media/sketch.3de843e7c4cbf32907de.JPG",
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.f853e5a1869a24e5a548.png",
     "static/media/Me.png": "/static/media/Me.c6e33a1e517553cfa701.png",
     "static/media/react.png": "/static/media/react.f268964f328ad9db0a9c.png",
     "index.html": "/index.html",
     "main.eee126bd.css.map": "/static/css/main.eee126bd.css.map",
-    "main.0ab5b6fd.js.map": "/static/js/main.0ab5b6fd.js.map"
+    "main.8303e88e.js.map": "/static/js/main.8303e88e.js.map"
   },
   "entrypoints": [
     "static/css/main.eee126bd.css",
-    "static/js/main.0ab5b6fd.js"
+    "static/js/main.8303e88e.js"
   ]
 }
