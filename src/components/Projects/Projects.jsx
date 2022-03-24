@@ -1,15 +1,15 @@
 import React from "react";
-import { projectData } from "../../data/ProjectData";
+
 import Project from "../Project/Project";
 import Title from "../Title/Title";
-const Projects = () => {
+const Projects = ({ projects }) => {
   return (
     <section
       className="centerFlex min-h-screen flex-col m-auto pt-16 pb-8 max-w-5xl"
       name="projects"
     >
       <Title title={"Projects"} mb={"mb-16"} />
-      {projectData.map((project) => {
+      {projects.map((project) => {
         const {
           id,
           a,
@@ -22,6 +22,7 @@ const Projects = () => {
           stack3,
           button1,
           button2,
+          projects,
         } = project;
         return (
           <article

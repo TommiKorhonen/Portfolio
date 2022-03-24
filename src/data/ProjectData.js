@@ -3,7 +3,7 @@ import Delicy from "../images/Delicy.png";
 import droppe from "../images/droppe xmas.JPG";
 import VBank from "../images/VBank.png";
 import Weatherapp from "../images/Weatherapp.png";
-import Streamovies from "../images/Streamovies.png";
+import Sketch from "../images/sketch.JPG";
 import html from "../images/html.png";
 import js from "../images/js.png";
 import react from "../images/react.png";
@@ -33,6 +33,25 @@ export const projectData = [
   },
   {
     id: 2,
+    text: "Sketch",
+    paragraph: "Create pixel art with a variety of drawing tools.",
+    projectImage: {
+      url: Sketch,
+      alt: "Image of project",
+    },
+    projectStack1: {
+      url: react,
+      alt: "React logo",
+    },
+    stack2: scss,
+    stack3: typescript,
+    button1: "Code",
+    button2: "Live",
+    a: "https://github.com/TommiKorhonen/Sketch",
+    a2: "https://tommikorhonen.github.io/Sketch/",
+  },
+  {
+    id: 3,
     text: "Delicy",
     paragraph:
       "Landing page, made with React and Tailwind. My first big project where I wanted to showcase my progress as Front-end dev.",
@@ -51,7 +70,7 @@ export const projectData = [
     a2: "https://tommikorhonen.github.io/Delicy/#/",
   },
   {
-    id: 3,
+    id: 4,
     text: "DroppeXmas",
     paragraph:
       "Whislist app, where parent can accept and decline childrens wishes",
@@ -71,7 +90,7 @@ export const projectData = [
     a2: "https://tommikorhonen.github.io/Droppe-Xmas/",
   },
   {
-    id: 4,
+    id: 5,
     text: "VBank",
     paragraph:
       "Digital Bank landing page, made with React and Tailwind. Really clean and responsive style.",
@@ -90,7 +109,7 @@ export const projectData = [
     a2: "https://tommikorhonen.github.io/VBank/",
   },
   {
-    id: 5,
+    id: 6,
     text: "Weather app",
     paragraph:
       "Weather app showcasing api usage. Fetched api from openweathermap. Displays temperature and if there is clear sky/clouds etc. Made with html, sass, javascript and compiled with parcel bundler.",
@@ -110,7 +129,7 @@ export const projectData = [
     a2: "https://tommikorhonen.github.io/WeatherApp/",
   },
   {
-    id: 6,
+    id: 7,
     text: "Tic-Tac-Toe",
     paragraph:
       "Tic-Tac-Toe game. Fully tested components with React testing library & Jest.",

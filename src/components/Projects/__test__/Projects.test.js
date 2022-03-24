@@ -4,8 +4,8 @@ import { projectData } from "../../../mocks/projects.js";
 import Projects from "../Projects.jsx";
 
 describe("Projects", () => {
-  test("should render 6 projects", () => {
-    render(<Projects />);
+  test("should render given amount of projects", () => {
+    render(<Projects projects={projectData} />);
     expect(screen.getAllByRole("article").length).toBe(6);
   });
 });
