@@ -11,9 +11,30 @@ import scss from "../images/scss.png";
 import tailwind from "../images/tailwind.png";
 import typescript from "../images/ts-logo-128.png";
 import tictactoe from "../images/tic-tac-toe.png";
+import Linkhub from "../images/Linkhub.JPG";
 export const projectData = [
   {
     id: 1,
+    text: "Linkhub",
+    paragraph:
+      "Create your own linkpage to share to your fans/friends! More features soon & more details on linkhub",
+    projectImage: {
+      url: Linkhub,
+      alt: "Image of project",
+    },
+    projectStack1: {
+      url: react,
+      alt: "React logo",
+    },
+    stack2: typescript,
+    stack3: tailwind,
+    button1: "Code",
+    button2: "Live",
+    a: "https://github.com/TommiKorhonen/Linkhub",
+    a2: "https://linkhub-3a46d.web.app/",
+  },
+  {
+    id: 2,
     text: "Portfolio",
     paragraph: "My portfolio made with React, tailwind",
     projectImage: {
@@ -32,7 +53,7 @@ export const projectData = [
     a2: "https://tommi-korhonen.com/",
   },
   {
-    id: 2,
+    id: 3,
     text: "Sketch",
     paragraph: "Create pixel art with a variety of drawing tools.",
     projectImage: {
@@ -51,7 +72,7 @@ export const projectData = [
     a2: "https://tommikorhonen.github.io/Sketch/",
   },
   {
-    id: 3,
+    id: 4,
     text: "Delicy",
     paragraph:
       "Landing page, made with React and Tailwind. My first big project where I wanted to showcase my progress as Front-end dev.",
@@ -68,26 +89,6 @@ export const projectData = [
     button2: "Live",
     a: "https://github.com/TommiKorhonen/Delicy",
     a2: "https://tommikorhonen.github.io/Delicy/#/",
-  },
-  {
-    id: 4,
-    text: "DroppeXmas",
-    paragraph:
-      "Whislist app, where parent can accept and decline childrens wishes",
-    projectImage: {
-      url: droppe,
-      alt: "Image of project",
-    },
-    projectStack1: {
-      url: react,
-      alt: "React logo",
-    },
-    stack2: typescript,
-    stack3: scss,
-    button1: "Code",
-    button2: "Live",
-    a: "https://github.com/TommiKorhonen/Droppe-Xmas",
-    a2: "https://tommikorhonen.github.io/Droppe-Xmas/",
   },
   {
     id: 5,
